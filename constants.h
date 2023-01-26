@@ -1,0 +1,7 @@
+#pragma once
+
+#define CODE_LENGTH 14
+#define MESSAGE_LENGTH 8
+#define ERROR_CORRECTION_COUNT 2
+#define GENERATOR 0x7F
+#define CODE_BITMASK 0x7FFF
