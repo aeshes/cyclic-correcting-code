@@ -38,8 +38,6 @@ unsigned int toggle_bit(unsigned int a, int bit)
 	return a ^ (1 << bit);
 }
 
-#define CODE_LENGTH 14
-
 unsigned int rol(unsigned int a, int bits)
 {
 	return ((a << bits) | (a >> (CODE_LENGTH - bits))) & CODE_BITMASK;
